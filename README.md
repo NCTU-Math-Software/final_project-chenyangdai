@@ -14,7 +14,6 @@ final_project-chenyangdai created by GitHub Classroom
 * _注　　意_　　請將鍵盤輸入改為**英文**輸入
 * _離　　開_　　離開請按**e**
 * _敵　　人_　　分為三種敵人
-
   * 紅色低級怪物
   * 藍色中級怪物
   * 白色高階雪怪
@@ -24,7 +23,7 @@ final_project-chenyangdai created by GitHub Classroom
 遊戲基本資訊
 ---------------
 
-### _玩　家　資　訊_
+ ### _玩　家　資　訊_
 
 
 
