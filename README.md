@@ -7,7 +7,6 @@ final_project-chenyangdai created by GitHub Classroom
 
 遊戲規則
 -------------
-------------------------------------------------
 
 * _盤　　面_　　黑色區域為遊戲範圍
 * _玩　　家_　　綠色槍枝
@@ -22,7 +21,7 @@ final_project-chenyangdai created by GitHub Classroom
 
 遊戲基本資訊
 ---------------
---------------------------------------------------
+
 
  ### _玩　家　資　訊_
  
