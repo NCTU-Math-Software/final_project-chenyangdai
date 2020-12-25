@@ -58,8 +58,18 @@ final_project-chenyangdai created by GitHub Classroom
 遊戲介面介紹
 ----------------------------------
 
-### 進　入　遊　戲
+### _進　入　遊　戲_
 ![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/gameStart.png)
+
+### _基　礎　遊　戲　關　卡　介　面_
+![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/inGame.png)
+
+### _藍　色　怪　物　發　射　紅　色　子　彈_
+![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/bulletAni1.gif)
+
+### _綠　色　槍　枝　發　射　黃　色　子　彈_
+![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/bothBullet.png)
+
 
 
 
