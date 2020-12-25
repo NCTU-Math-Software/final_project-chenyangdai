@@ -103,4 +103,21 @@
 
 ![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/bossMoveAni1.gif)
 
+觸發白色怪物攻擊手段：使用者起動攻擊兩次
+
+**_(缺圖片--------------------------------------缺圖片)_**
+
+結束白色怪物副本，會回到基本遊戲基礎版面
+
+**_(缺圖片--------------------------------------缺圖片)_**
+
+### _觸　發　結　束　遊　戲_
+
+使用者若觸及按鍵**e**則跳出遊戲，系統公告顯示:　**_End the game_**
+
+![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/EndTheGame.png)
+
+若玩家血量歸零，或者子彈歸零，但是怪物尚未被擊敗，則系統公告顯示:　**_Game　Over_**
+
+![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/GameOver.png)
 
