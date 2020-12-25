@@ -48,7 +48,6 @@ final_project-chenyangdai created by GitHub Classroom
   6. 擊殺獎勵：15顆子彈 + 3滴血量
  
             
- ![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/bulletAni1.gif)
 
 
 
