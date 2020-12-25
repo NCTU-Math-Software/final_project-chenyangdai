@@ -18,9 +18,6 @@ final_project-chenyangdai created by GitHub Classroom
   * 藍色中級怪物
   * 白色高階雪怪
   
-進入遊戲介面
-
-![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/gameStart.png)
 
 -------------------------------------------
 遊戲基本資訊
@@ -56,6 +53,13 @@ final_project-chenyangdai created by GitHub Classroom
   4. 怪物攻擊力：5
   5. 出現位置：初始在中間，之後會左右規律移動
   6. 擊殺獎勵：45顆子彈 + 10滴血量
+  
+-----------------------------------------------------------  
+遊戲介面介紹
+----------------------------------
+
+### 進　入　遊　戲
+![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/gameStart.png)
 
 
 
