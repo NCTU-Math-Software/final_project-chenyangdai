@@ -62,19 +62,23 @@ final_project-chenyangdai created by GitHub Classroom
 ----------------------------------
 
 ### _進　入　遊　戲_
-　　左右鍵可以使綠色槍枝移動，空白鍵則為發射子彈，但是必須切換為英文輸入空白鍵才可以發射子彈。
+左右鍵可以使綠色槍枝移動，空白鍵則為發射子彈，但是必須切換為英文輸入空白鍵才可以發射子彈。
+
 ![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/gameStart.png)
 
 ### _基　礎　遊　戲　關　卡　介　面_
-　　紅色或藍色怪物上的數字是怪物的血量，每打到一次怪物會更新一次血量；左上角則顯示玩家所剩子彈之數量，以及玩家分數；右上角則是顯示玩家血量。
+紅色或藍色怪物上的數字是怪物的血量，每打到一次怪物會更新一次血量；左上角則顯示玩家所剩子彈之數量，以及玩家分數；右上角則是顯示玩家血量。
+
 ![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/inGame.png)
 
 ### _藍　色　怪　物　發　射　紅　色　子　彈_
-　　藍色怪物會定時發射出紅色子彈，子彈攻擊力跟著怪物一起隨機從1到3生成。
+藍色怪物會定時發射出紅色子彈，子彈攻擊力跟著怪物一起隨機從1到3生成。
+
 ![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/bulletAni1.gif)
 
 ### _綠　色　槍　枝　發　射　黃　色　子　彈_
-　　若是玩家按下空白鍵，則綠色槍枝會發射黃色子彈，玩家子彈數量減一。
+若是玩家按下空白鍵，則綠色槍枝會發射黃色子彈，玩家子彈數量減一。
+
 ![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/bothBullet.png)
 
 
