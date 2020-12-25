@@ -18,6 +18,7 @@ final_project-chenyangdai created by GitHub Classroom
   * 藍色中級怪物
   * 白色高階雪怪
   
+進入遊戲介面
 ![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/gameStart.png)
 
 -------------------------------------------
@@ -47,7 +48,13 @@ final_project-chenyangdai created by GitHub Classroom
   5. 出現位置：定點，隨機生成在上半部三個位置
   6. 擊殺獎勵：15顆子彈 + 3滴血量
  
-            
+  #### _白　色　怪　物　資　訊_
+  1. 觸發程序：血量與子彈到達一定數目 (血量：30 子彈數目：50 兩場Boss之間必須隔三場基礎盤面遊戲)
+  2. 血量：45
+  3. 擊敗後分數：50
+  4. 怪物攻擊力：5
+  5. 出現位置：初始在中間，之後會左右規律移動
+  6. 擊殺獎勵：45顆子彈 + 10滴血量
 
 
 
