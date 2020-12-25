@@ -67,7 +67,9 @@ final_project-chenyangdai created by GitHub Classroom
 ![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/gameStart.png)
 
 ### _基　礎　遊　戲　關　卡　介　面_
-紅色或藍色怪物上的數字是怪物的血量，每打到一次怪物會更新一次血量；左上角則顯示玩家所剩子彈之數量，以及玩家分數；右上角則是顯示玩家血量。
+黑色盤面為玩家遊戲範圍。
+紅色或藍色怪物上的數字是怪物的血量，每打到一次怪物會更新一次血量；
+左上角則顯示玩家所剩子彈之數量，以及玩家分數；右上角則是顯示玩家血量。
 
 ![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/inGame.png)
 
@@ -81,6 +83,7 @@ final_project-chenyangdai created by GitHub Classroom
 
 ![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/bothBullet.png)
 
+### _進入到Boss副本_
 
 
 
