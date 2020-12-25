@@ -17,6 +17,8 @@ final_project-chenyangdai created by GitHub Classroom
   * 紅色低級怪物
   * 藍色中級怪物
   * 白色高階雪怪
+  
+![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/gameStart.png)
 
 -------------------------------------------
 遊戲基本資訊
