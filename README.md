@@ -90,6 +90,12 @@
 
 ![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/newAttack.png)
 
-系統提示
+系統提示使用者遊戲即將開始
+
+![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/inBoss.png)
+
+白色怪物是會移動的怪物，讓使用者必須追著怪物跑並發射子彈
+
+![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/bossMoveAni1.gif)
 
 
