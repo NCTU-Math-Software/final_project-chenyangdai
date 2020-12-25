@@ -19,6 +19,7 @@ final_project-chenyangdai created by GitHub Classroom
   * 白色高階雪怪
   
 進入遊戲介面
+
 ![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/gameStart.png)
 
 -------------------------------------------
