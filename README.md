@@ -1,7 +1,3 @@
-# final_project-chenyangdai
-final_project-chenyangdai created by GitHub Classroom
-
-
 *Shooting Game* 
 ==========
 
@@ -83,8 +79,17 @@ final_project-chenyangdai created by GitHub Classroom
 
 ![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/bothBullet.png)
 
-### _進入到Boss副本_
+### _進入到 Boss 副本_
+當玩家 血量到達30、子彈數目到達50，則會進入到 白色怪物 Boss 副本
 
+系統提示使用者　已進入到　White　Boss　副本，並且閃爍三次提示
 
+![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/whiteBoss_systemAnn.png)
+
+系統獎勵給予玩家有提高攻擊力的機會，一顆子彈的攻擊力將會隨機生成，範圍為1到3
+
+![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/newAttack.png)
+
+系統提示
 
 
