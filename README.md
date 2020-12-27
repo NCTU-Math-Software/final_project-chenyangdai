@@ -108,6 +108,7 @@
 ![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/bossAttack.png)
 
 結束白色怪物副本，會回到基本遊戲基礎版面
+
 ![image](https://github.com/NCTU-Math-Software/final_project-chenyangdai/blob/main/Endboss.png)
 
 ### _觸　發　結　束　遊　戲_
