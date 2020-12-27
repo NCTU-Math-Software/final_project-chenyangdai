@@ -130,7 +130,7 @@
 ### _問　題　1_
 ##### **遊戲盤面怎麼設計，使玩家玩起來是舒適的?**
 
-**_A:_**
+**_Ans:_**
 
 利用　colordef　和　axis　的基礎設定，再加上　box　on　即可讓盤面看起來是舒適的。
 
@@ -148,6 +148,26 @@
 
 ### _問　題　2_
 ##### **圖上的物件要怎麼讓它消失? (如系統公告、死去的怪物等等)**
+
+**_Ans:_**
+
+在顯示物件(此程式皆使用scatter)時，把那個物件命名，等要讓它消失時，就用delete函數將他從圖上去除。
+
+程式碼範例:
+
+```matlab
+    %置放物件在圖上(此例為系統公告玩家基本資訊)
+    bullet_num=text(0.06,2.9,['Bullet number:' ,num2str(player(2))],'Color','white');
+    player_score=text(0.06,2.7,['Score:',num2str(player(6))],'Color','yellow');
+    player_blood=text(2.5,2.9,['Blood:',num2str(player(1))],'Color','green');
+    
+    %去除物件
+    delete(bullet_num);
+    delete(player_score);
+    delete(player_blood);
+
+```
+
 ### _問　題　3_
 
 ### _問　題　4_
