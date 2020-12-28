@@ -188,8 +188,65 @@
 
 ### _問　題　4_
 ##### **怎樣可以邊攻擊邊移動槍枝?**
+
+**_Ans:_**
+
+參考網路上別人的程式碼，如何使用多重按鍵控制物件移動。
+
+網址:
+
+https://yuchungchuang.wordpress.com/2017/08/07/matlab-%E5%A4%9A%E9%87%8D%E6%8C%89%E9%8D%B5%E4%BA%8B%E4%BB%B6%E7%9A%84%E8%99%95%E7%90%86keypressfcn/
+
+程式碼範例:
+```matlab   
+    fig = figure('KeyPressFcn',@kpfcn,'KeyReleaseFcn',@krfcn);
+    ball = scatter(1,1,100,'r','filled');
+    axis([0 3 0 3])
+    IsPress.uparrow = false;
+    IsPress.downarrow = false;
+    IsPress.rightarrow = false;
+    IsPress.leftarrow = false;
+    while true
+        if IsPress.uparrow
+            ball.YData = ball.YData + 0.1;
+        end
+        if IsPress.downarrow
+            ball.YData = ball.YData - 0.1;
+        end
+        if IsPress.rightarrow
+            ball.XData = ball.XData + 0.1;
+        end
+        if IsPress.leftarrow
+            ball.XData = ball.XData - 0.1;
+        end
+        pause(0.01)
+    end
+
+    function krfcn(obj,event)
+        IsPress.(event.Key) = false;
+    end
+
+    function kpfcn(obj,event)
+        IsPress.(event.Key) = true;
+    end
+
+```
+
 ### _問　題　5_
 ##### **怎樣同時讓玩家的子彈和怪物的子彈同時動作?**
-### _問　題　6_
-##### **怎麼讓系統公告閃爍提醒?**
 
+**_Ans:_**
+
+主要解決方法是將動作指令程式碼安插在一起。
+
+程式碼範例: (bullet是射擊手的子彈；enermy_Bullet是敵人的子彈)
+
+```matlab
+    while bullet.YData<=2.5 
+        if enermy_Bullet.YData>=0
+            enermy_Bullet.YData=enermy_Bullet.YData-0.05;
+        end
+        bullet.YData=bullet.YData+0.1;
+        pause(0.01)
+    end
+```
