@@ -169,6 +169,22 @@
 ```
 
 ### _問　題　3_
+##### **怎麼讓系統公告閃爍提醒?**
+
+**_Ans:_**
+
+利用scatter和delete交互使用，適時加入pause讓系統公告維持在畫面一下子，照成閃爍的效果。
+
+程式碼範例:
+
+```matlab
+        for ii=1:3
+            system_announcement=text(0.3,1.5,'!! WHITE  BOSS  !!','Color','red','Fontsize',30);
+            pause(0.8);
+            delete(system_announcement);
+            pause(0.8);
+        end
+```
 
 ### _問　題　4_
 ##### **怎樣可以邊攻擊邊移動槍枝?**
